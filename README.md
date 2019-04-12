@@ -5,20 +5,18 @@ csc690-FinalProject is an application for iOS.
 
 ## User Stories
 
-The following **required** functionality is complete:
+The following **must-have** functionality:
 
 * [ ] 
 
-The following **optional** features are implemented:
+The following **Nice-to-have** features:
 * [ ] 
 * [ ] 
 * [ ] 
 * [ ] 
 * [ ] 
 
-The following **additional** features are implemented:
-- [ ] 
-
+## Basic wire-frames
 
 
 
