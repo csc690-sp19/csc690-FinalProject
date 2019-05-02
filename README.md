@@ -7,7 +7,11 @@ csc690-FinalProject is an application for iOS.
 
 The following **must-have** functionality:
 
-* [ ] 
+* [ ] User can view the top recommendation places in town on the tableview list. 
+* [ ] User can view the top recommendation places in town on the mapview. 
+* [ ] User can view each spot location address on the detailview. 
+* [ ] User can view each spot photo on the detailview. 
+* [ ] User can view each spot tips on the detailview. 
 
 The following **Nice-to-have** features:
 * [ ] 
@@ -18,6 +22,8 @@ The following **Nice-to-have** features:
 
 ## Basic wire-frames
 
+
+<img src='https://imgur.com/HLczHr7' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
 
