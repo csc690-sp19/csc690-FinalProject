@@ -23,8 +23,7 @@ The following **Nice-to-have** features:
 ## Basic wire-frames
 
 
-<img src='https://imgur.com/HLczHr7' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
+<a href="https://imgur.com/uFVWhNy"><img src="https://i.imgur.com/uFVWhNy.png" title="source: imgur.com" /></a>
 
 
 ## License
