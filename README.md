@@ -1,8 +1,8 @@
 # csc690-FinalProject
 
-TravalApp is an application for iOS.
-It gives user recommand top travel spots in town.
-This app is using the FourSqaure API.
+* TravalApp is an application for iOS.
+* It gives user recommand top travel spots in town.
+* This app is using the [FourSqaure API].
 
 ## User Stories
 
