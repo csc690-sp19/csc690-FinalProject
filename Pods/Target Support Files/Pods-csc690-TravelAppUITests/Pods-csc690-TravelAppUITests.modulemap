@@ -1,0 +1,6 @@
+framework module Pods_csc690_TravelAppUITests {
+  umbrella header "Pods-csc690-TravelAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

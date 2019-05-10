@@ -1,0 +1,6 @@
+framework module Pods_csc690_TravelApp {
+  umbrella header "Pods-csc690-TravelApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
