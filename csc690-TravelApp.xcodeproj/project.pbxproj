@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5903451B228A92D900679447 /* TodoListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5903451A228A92D900679447 /* TodoListCell.swift */; };
+		5903451D228A988700679447 /* TodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5903451C228A988700679447 /* TodoViewController.swift */; };
+		5903451F228B4CF100679447 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5903451E228B4CF100679447 /* Todo.swift */; };
 		59050AEF2285217100D31E37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59050AEE2285217100D31E37 /* Main.storyboard */; };
 		59050AF62285219A00D31E37 /* SpotCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59050AF02285219A00D31E37 /* SpotCell.swift */; };
 		59050AF72285219A00D31E37 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59050AF12285219A00D31E37 /* MapViewController.swift */; };
@@ -47,6 +50,9 @@
 		1268F8EF95E2D62E45129B70 /* Pods-csc690-TravelAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-csc690-TravelAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-csc690-TravelAppTests/Pods-csc690-TravelAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1D9E6DFB6D1852468A7EE427 /* Pods-csc690-TravelAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-csc690-TravelAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-csc690-TravelAppTests/Pods-csc690-TravelAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		3EB8A89558CFB5325A9E377A /* Pods-csc690-TravelAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-csc690-TravelAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-csc690-TravelAppUITests/Pods-csc690-TravelAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5903451A228A92D900679447 /* TodoListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TodoListCell.swift; path = ../API/TodoListCell.swift; sourceTree = "<group>"; };
+		5903451C228A988700679447 /* TodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
+		5903451E228B4CF100679447 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 		59050AEE2285217100D31E37 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		59050AF02285219A00D31E37 /* SpotCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotCell.swift; sourceTree = "<group>"; };
 		59050AF12285219A00D31E37 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -132,6 +138,7 @@
 				59050AF22285219A00D31E37 /* Spot.swift */,
 				59050AF52285219A00D31E37 /* FourSquareAPI.swift */,
 				59050AF42285219A00D31E37 /* WeatherService.swift */,
+				5903451E228B4CF100679447 /* Todo.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -139,6 +146,7 @@
 		59050AFF2285273000D31E37 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5903451A228A92D900679447 /* TodoListCell.swift */,
 				59050AF02285219A00D31E37 /* SpotCell.swift */,
 				59050AFC228521C600D31E37 /* City.swift */,
 			);
@@ -173,9 +181,10 @@
 				59050AFF2285273000D31E37 /* Model */,
 				59050AFE228526CE00D31E37 /* API */,
 				59050AF32285219A00D31E37 /* DetailViewController.swift */,
+				5903451C228A988700679447 /* TodoViewController.swift */,
 				59050AF12285219A00D31E37 /* MapViewController.swift */,
-				59CF57DD227B78E000D0050F /* AppDelegate.swift */,
 				59CF57DF227B78E000D0050F /* HomeViewController.swift */,
+				59CF57DD227B78E000D0050F /* AppDelegate.swift */,
 				59050AEE2285217100D31E37 /* Main.storyboard */,
 				59CF57E4227B78E300D0050F /* Assets.xcassets */,
 				59CF57E6227B78E300D0050F /* LaunchScreen.storyboard */,
@@ -431,13 +440,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				59050AF62285219A00D31E37 /* SpotCell.swift in Sources */,
+				5903451B228A92D900679447 /* TodoListCell.swift in Sources */,
 				59CF57E0227B78E000D0050F /* HomeViewController.swift in Sources */,
 				59050AFD228521C600D31E37 /* City.swift in Sources */,
 				59050AF82285219A00D31E37 /* Spot.swift in Sources */,
 				59050AF92285219A00D31E37 /* DetailViewController.swift in Sources */,
 				59CF57DE227B78E000D0050F /* AppDelegate.swift in Sources */,
+				5903451F228B4CF100679447 /* Todo.swift in Sources */,
 				59050AFB2285219A00D31E37 /* FourSquareAPI.swift in Sources */,
 				59050AF72285219A00D31E37 /* MapViewController.swift in Sources */,
+				5903451D228A988700679447 /* TodoViewController.swift in Sources */,
 				59050AFA2285219A00D31E37 /* WeatherService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

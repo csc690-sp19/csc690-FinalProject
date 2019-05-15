@@ -10,6 +10,8 @@ import UIKit
 import Alamofire
 import AlamofireImage
 
+
+
 class DetailViewController: UIViewController {
 
     @IBOutlet weak var spotImage: UIImageView!
@@ -19,6 +21,7 @@ class DetailViewController: UIViewController {
     
     @IBOutlet weak var type: UILabel!
     var spot: Spot?
+    var todoList = Todo()
     var service: WeatherService = WeatherService()
     var alertController = UIAlertController()
     
@@ -88,6 +91,24 @@ class DetailViewController: UIViewController {
             
         }
     }
+    @IBAction func addTodo(_ sender: Any) {
+//        task.insert((spotname: spotName.text!, addr: spotAddress.text!), at: 0)
+        task.insert((spotname: spotName.text!, addr: spotAddress.text!, URL: spot!.IconURL), at: 0)
+//        let saveData: [[String: Any]] = task.map { ["spotname": $0.spotname, "addr": $0.addr] }
+        let saveData: [[String: Any]] = task.map { ["spotname": $0.spotname, "addr": $0.addr, "URL": $0.URL] }
+        UserDefaults.standard.set(saveData, forKey: "Todo")
+        
+        
+        let alert = UIAlertController(title: "Travel Bucket", message: "Successfully added!", preferredStyle: UIAlertController.Style.alert)
+        let cancelAction = UIAlertAction(title: "Ok", style: .cancel, handler: { (action) in
+            alert.dismiss(animated: true, completion: nil)
+        })
+        alert.addAction(cancelAction)
+        self.present(alert, animated: true, completion: nil)
+        
+    }
+    
+    
     
     @IBAction func getWeather(_ sender: Any) {
         print("clicked")
