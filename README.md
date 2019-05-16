@@ -6,11 +6,11 @@
 
 ## Team Members
 
-SiuChun Kung
+- SiuChun Kung
 
-KaHo Lee
+- KaHo Lee
 
-JiaNan Mai
+- JiaNan Mai
 
 ## User Stories
 
