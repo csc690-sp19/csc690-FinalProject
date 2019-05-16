@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -11,15 +15,58 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TavelGo!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tcG-ue-m2g">
+                                <rect key="frame" x="160" y="480" width="94" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="heC-dL-VJI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Get places to go" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ra6-hi-3e3">
+                                <rect key="frame" x="142" y="517" width="131" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="xEb-1j-XFB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" image="rsz_31" translatesAutoresizingMaskIntoConstraints="NO" id="V8r-yj-jS5">
+                                <rect key="frame" x="98" y="292" width="219" height="180"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="219" id="KF6-R8-tBL"/>
+                                    <constraint firstAttribute="height" constant="180" id="MkD-5T-Pbt"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="V8r-yj-jS5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="98" id="0MT-2V-EpG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Ra6-hi-3e3" secondAttribute="bottom" constant="324" id="3BM-a7-ZUu"/>
+                            <constraint firstItem="Ra6-hi-3e3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="142" id="EJD-Tb-kMd"/>
+                            <constraint firstItem="tcG-ue-m2g" firstAttribute="top" secondItem="V8r-yj-jS5" secondAttribute="bottom" constant="8" id="I1Z-R9-QJr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ra6-hi-3e3" secondAttribute="trailing" constant="141" id="NQB-AT-w4N"/>
+                            <constraint firstItem="V8r-yj-jS5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="248" id="VeM-OA-sfG"/>
+                            <constraint firstItem="Ra6-hi-3e3" firstAttribute="top" secondItem="tcG-ue-m2g" secondAttribute="bottom" constant="8" id="XTh-jB-YNO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tcG-ue-m2g" secondAttribute="trailing" constant="160" id="Xf7-wJ-8pS"/>
+                            <constraint firstItem="Ra6-hi-3e3" firstAttribute="top" secondItem="tcG-ue-m2g" secondAttribute="bottom" constant="8" id="cSz-8m-DRr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="V8r-yj-jS5" secondAttribute="trailing" constant="97" id="lxo-fL-OnP"/>
+                            <constraint firstItem="tcG-ue-m2g" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="160" id="r2u-OQ-LGE"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="rsz_31" width="180" height="180"/>
+    </resources>
 </document>
