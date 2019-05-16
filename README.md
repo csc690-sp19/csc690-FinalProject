@@ -1,7 +1,6 @@
 # csc690-FinalProject
 
-* TravalApp is an application for iOS.
-* It gives user recommended top travel spots in town.
+* TravelGo! is an iOS application for looking up recomended spots in a city or country.
 * This app is using the [FourSqaure API](https://developer.foursquare.com).
 
 ## Team Members
