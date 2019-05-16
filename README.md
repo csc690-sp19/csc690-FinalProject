@@ -6,20 +6,20 @@
 
 ## User Stories
 
-The following **must-have** functionalities:
+The following **required** functionalities:
 
-* [ ] User can view the top recommendation places in town on the tableview list. 
-* [ ] User can view the top recommendation places in town on the mapview. 
-* [ ] User can view each spot location address on the detailview. 
-* [ ] User can view each spot photo on the detailview. 
-* [ ] User can view each spot tips on the detailview. 
+* [x] User can view the top recommendation of places in town on the tableview list. 
+* [x] User can view the top recommendation of places in town on the mapview. 
+* [x] User can view each spot location address on the detailview. 
+* [x] User can view each spot photo on the detailview. 
+* [x] User can view each spot tips on the detailview.
+* [x] User can search for any place(e.g. city or country) and fetch the list
 
-The following **Nice-to-have** features:
-* [ ] 
-* [ ] 
-* [ ] 
-* [ ] 
-* [ ] 
+The following **stretch** user stories are implemented:
+* [x] User can view the map with marked pins
+* [x] User can get the temperature of the current city
+* [x] User can use GPS to get the route to the desired spot
+* [x] User can add spot to the bookmark
 
 ## Basic wire-frames
 
