@@ -28,8 +28,6 @@ class HomeViewController: UIViewController,UITableViewDataSource, UITableViewDel
         self.searchTextField.delegate = self
         // Do any additional setup after loading the view.
         
-        navigationItem.title = "TravalGo!"
-        
         getCurrentLocation()
         fetchPost()
         
