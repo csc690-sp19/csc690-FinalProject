@@ -127,6 +127,7 @@ class DetailViewController: UIViewController {
             })
             alert.addAction(cancelAction)
             self.present(alert, animated: true, completion: nil)
+            print(name)
         }
     }
     
