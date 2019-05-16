@@ -30,8 +30,7 @@ The following **Nice-to-have** user stories are implemented:
 
 ## Loading project from the terminal
 To run the project, go to the csc690-finalproject folder and
-type the following:pod install
-then open csc690-TravelApp.xcworkspace
+type the following: pod install then open csc690-TravelApp.xcworkspace
 
 ## Basic wire-frames
 
