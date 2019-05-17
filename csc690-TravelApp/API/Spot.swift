@@ -2,8 +2,8 @@
 //  Spot.swift
 //  BestTravel
 //
-//  Created by Jangey Lu on 12/3/18.
-//  Copyright © 2018 Jangey Lu. All rights reserved.
+//  Created by SiuChun Kung on 12/5/19.
+//  Copyright © 2018 SiuChun Kung. All rights reserved.
 //
 
 import Foundation

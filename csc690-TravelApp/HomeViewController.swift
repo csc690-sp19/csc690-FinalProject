@@ -19,6 +19,7 @@ class HomeViewController: UIViewController,UITableViewDataSource, UITableViewDel
     var spots: [Spot] = []
     static var errorMessage = ""
     let locationManager = CLLocationManager()
+    var refreshControl:UIRefreshControl!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,9 +29,17 @@ class HomeViewController: UIViewController,UITableViewDataSource, UITableViewDel
         self.searchTextField.delegate = self
         // Do any additional setup after loading the view.
         
+        refreshControl = UIRefreshControl()
+        refreshControl.addTarget(self, action: #selector(refreshControlAction(_:)), for: UIControl.Event.valueChanged)
+        tableview.insertSubview(refreshControl, at: 0)
+        
         getCurrentLocation()
         fetchPost()
         
+    }
+    
+    @objc func refreshControlAction(_ refreshControl: UIRefreshControl){
+        fetchPost()
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -47,6 +56,7 @@ class HomeViewController: UIViewController,UITableViewDataSource, UITableViewDel
             self.tableview.reloadData()
             self.tableview.scrollToRow(at: IndexPath.init(row: 0, section: 0), at: .top, animated: true)
         }
+        refreshControl.endRefreshing()
         
     }
     
