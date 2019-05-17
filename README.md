@@ -1,7 +1,7 @@
 # csc690-FinalProject
 
 * TravelGo! is an iOS application for looking up recomended spots in a city or country.
-* This app is using the [FourSqaure API](https://developer.foursquare.com).
+* This app is using the [FourSquare API](https://developer.foursquare.com).
 
 ## Team Members
 
